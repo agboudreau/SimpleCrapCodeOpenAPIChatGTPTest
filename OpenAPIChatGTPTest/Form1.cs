@@ -24,7 +24,7 @@ namespace OpenAPIChatGTPTest
         {
             var openAiService = new OpenAIService(new OpenAiOptions()
             {
-                ApiKey = " Example : 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"  // your key here
+                ApiKey = " Example : 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"  // your OPENAI API key here
             });
 
             var completionResult = await openAiService.Completions.CreateCompletion(new CompletionCreateRequest()
@@ -108,7 +108,7 @@ namespace OpenAPIChatGTPTest
 
             var openAiService = new OpenAIService(new OpenAiOptions()
             {
-                ApiKey = " Example : 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"  // your key here
+                ApiKey = " Example : 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"  // your OPENAI API key here
             });
 
             var completionResult = await openAiService.Completions.CreateCompletion(new CompletionCreateRequest()
